@@ -1,5 +1,6 @@
 // Dati del sito. Il template (index.html) legge solo questo file.
 window.SITE = {
+  layout: "pop",
   name: "Pizzeria da Emma",
   shortName: "Pizzeria da Emma",
   tagline: "Pizzeria · Farinata",
@@ -19,11 +20,11 @@ window.SITE = {
   piva: "",
   footerLine: "La nostra passione da oltre 40 anni",
   rating: { value: "4,6", count: "239", source: "Google" },
-  theme: { primary: "#5b1822", primaryDark: "#3f0f17", accent: "#c8283a", accentLight: "#f2b8bf", soft: "#f5ecea", cream: "#f7f1e8", paper: "#fcf9f4", line: "#e8ddd2" },
+  theme: { primary: "#b52232", primaryDark: "#1c1c1c", accent: "#ffc23d", accentLight: "#ffe6a8", soft: "#fdeee6", cream: "#fff6ea", paper: "#fffdf8", line: "#1c1c1c" },
 
   hero: {
-    image: "img/sala-sera.webp",
-    imageAlt: "La sala della Pizzeria da Emma, apparecchiata per la sera",
+    image: "img/salsiccia-friarielli.webp",
+    imageAlt: "Pizza salsiccia e friarielli appena sfornata",
     eyebrow: "Via Malta · Torino",
     title: "Lievito madre,",
     titleEm: "oltre 48 ore di lievitazione",
@@ -152,7 +153,6 @@ window.SITE = {
     lead: "Una sala piccola e curata, il dehors e le pizze appena sfornate.",
     images: [
       { src: "img/sala.webp", alt: "La sala con le sedie rosse" },
-      { src: "img/salsiccia-friarielli.webp", alt: "Pizza salsiccia e friarielli" },
       { src: "img/pizza-bufala.webp", alt: "Pizza con mozzarella di bufala, pomodorini e basilico" },
       { src: "img/gorgo-pere.webp", alt: "Pizza gorgonzola, pere e noci" },
       { src: "img/esterno.webp", alt: "L'ingresso e il dehors in via Malta la sera" }
